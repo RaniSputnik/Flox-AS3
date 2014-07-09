@@ -132,7 +132,7 @@ package com.gamua.flox
                 
                 if (httpStatus != HttpStatus.OK)
                 {
-                    execute(onError, "Flox Server unreachable", httpStatus, cachedResult);
+                    execute(onError, "Flox Server unreachable", 0, cachedResult);
                 }
                 else
                 {
